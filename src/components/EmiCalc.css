@@ -1,0 +1,71 @@
+
+.formContainer{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+    height: 50vh;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px, rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+    background-color: #EEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.inputCont{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputCont>label{
+    font-size: large;
+}
+
+.inputCont>input{
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px 0px, rgba(0, 0, 0, 0.24) 0px 1px 2px 0px;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+.starMark{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.submit{
+    padding: 10px 60px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: medium;
+}
+.submit:hover{
+    background-color: #00ADB5;
+    border: 1px solid transparent;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px 0px, rgba(0, 0, 0, 0.22) 0px 10px 10px 0px;
+    transition: 0.1s;
+}
+
+.historyLink{
+    color: blue;
+    cursor: pointer;
+}
